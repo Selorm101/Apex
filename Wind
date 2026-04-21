@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FCZONE AI — Smart Tournament Platform</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #06080E;
+  --surface: #0C1018;
+  --card: #111820;
+  --border: #1C2636;
+  --gold: #F0B429;
+  --green: #00E87A;
+  --blue: #3D8EFF;
+  --red: #FF4560;
+  --text: #E2EAF4;
+  --muted: #4E6280;
+}
+/* ... Dashboard CSS styles ... */
+</style>
+</head>
+<body>
+<div class="app">
+  </div>
+<script>
+/* Dashboard navigation and AI simulation logic */
+function switchPanel(id) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+// ... AI screenshot processing and chat logic ...
+</script>
+</body>
+</html>
